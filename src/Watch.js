@@ -19,13 +19,13 @@ export default class Watch extends Component {
 		return (
 			<View style={styles.container}>
 				<BrightcovePlayer
-					ref={ref => (this.player = ref)}
-					style={styles.player}
-					play={this.state.playing}
-					autoPlay={CONFIG.player.autoplay}
 					accountId={CONFIG.accountId}
 					videoId={videoId}
 					policyKey={CONFIG.policyKey}
+					style={styles.player}
+					autoPlay={CONFIG.player.autoplay}
+					ref={ref => (this.player = ref)}
+					play={this.state.playing}
 					onReady={() => console.log('ready')}
 					onPlay={() => this.setState({ playing: true })}
 					onPause={() => this.setState({ playing: false })}
@@ -33,6 +33,7 @@ export default class Watch extends Component {
 					onProgress={({ currentTime }) =>
 						this.setState({ progress: currentTime })
 					}
+
 				/>
 
 				<View style={styles.content}>

@@ -1,9 +1,9 @@
 import Watch from './src/Watch'
 import VideoList from './src/VideoList'
 
-import { StackNavigator } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation';
 
-const App = StackNavigator({
+const App = createStackNavigator({
 	VideoList: {
 		screen: VideoList,
 		navigationOptions: {

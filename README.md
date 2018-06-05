@@ -41,5 +41,5 @@ $ react-native run-android
 ```
 
 ## Preview
-![Preview](readme/react-native-sample.gif)
+![Preview iOS](readme/react-native-sample-ios.gif)
 
