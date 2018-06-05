@@ -17,9 +17,9 @@ You can edit the playlist, policyKey, etc, in the `config.js` file in the root o
 Example:
 ```
 {
-	limit: 12,
-	accountId: '12345646',
-	policyKey: 'dfghjkl;',
+	limit: 15,
+	accountId: '[YOUR ACCOUNT ID]',
+	policyKey: '[YOUR POLICYKEY];',
 	player: {
 		autoplay: true
 	}
@@ -41,5 +41,10 @@ $ react-native run-android
 ```
 
 ## Preview
+
+**iOS**
 ![Preview iOS](readme/react-native-sample-ios.gif)
+
+**Andoid**
+![Preview iOS](readme/react-native-sample-android.gif)
 
