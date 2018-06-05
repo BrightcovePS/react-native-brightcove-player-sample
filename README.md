@@ -40,3 +40,6 @@ $ react-native run-ios
 $ react-native run-android
 ```
 
+## Preview
+![Preview](readme/react-native-sample.gif)
+
