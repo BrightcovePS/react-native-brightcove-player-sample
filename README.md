@@ -42,6 +42,11 @@ $ react-native run-android
 
 ## Preview
 
+**iOS**
+
 ![Preview iOS](readme/react-native-sample-ios.gif)
+
+**Andoid**
+
 ![Preview iOS](readme/react-native-sample-android.gif)
 
