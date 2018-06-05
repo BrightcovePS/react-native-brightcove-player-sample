@@ -1,0 +1,18 @@
+PODS:
+  - Brightcove-Player-Core (6.2.0):
+    - Brightcove-Player-Core/default (= 6.2.0)
+  - Brightcove-Player-Core/default (6.2.0)
+
+DEPENDENCIES:
+  - Brightcove-Player-Core
+
+SPEC REPOS:
+  https://github.com/brightcove/BrightcoveSpecs.git:
+    - Brightcove-Player-Core
+
+SPEC CHECKSUMS:
+  Brightcove-Player-Core: 4dafc89aa982191b72becca2fdb7e3f5e8e1f2bf
+
+PODFILE CHECKSUM: 0b2fffac611b74a286207eaf7424ca12866d7ae0
+
+COCOAPODS: 1.5.3
