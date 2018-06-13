@@ -12,7 +12,7 @@ A React Native implementation using [Brightcove Player](https://github.com/manse
 
 ## Config
 
-You can edit the playlist, policyKey, etc, in the `config.js` file in the root of this folder.
+You need to edit the playlist, policyKey, etc, in the `config.js` file in the root of this folder.
 
 Example:
 ```
@@ -25,6 +25,8 @@ Example:
 	}
 }
 ```
+
+To create a Policy key, use the policy api: https://docs.brightcove.com/policy-api/v1/doc/index.html
 
 ## Running
 
